@@ -19,3 +19,4 @@ jobs:
           **.git*/**
           **.github*/**
         protocol: ftps
+        logging: verbose
