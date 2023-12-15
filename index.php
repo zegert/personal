@@ -25,7 +25,7 @@
 
         body {
             font-family: 'Montserrat', 'Roboto', sans-serif;
-            background-color: #736b5e;
+            background-color: #131516;
             color: #e8e6e3;
             font-size: 17px;
             line-height: 1.6;
