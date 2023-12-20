@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,7 +23,7 @@
         }
 
         body {
-            font-family: 'Montserrat', 'Roboto', sans-serif;
+            font-family: 'Montserrat', 'Roboto', 'sans-serif';
             background-color: #181a1b;
             color: #e8e6e3;
             font-size: 17px;
@@ -56,11 +55,8 @@
         p {
             margin-left: 40px;
         }
-
     </style>
-
 </head>
-
 <body>
     <h3>Who is <span class="pink">Zegert Boele</span>?</h3>
     <h4>
@@ -96,10 +92,8 @@
     <p>
         <a href="mailto:contact@zegert.nl">Email</a>
         <a href="https://www.linkedin.com/in/ZegertBoele">LinkedIn</a>
-        <a href="https://github.com/Zegert">Github</a>
+        <a href="https://github.com/zegert">Github</a>
         <a href="https://www.instagram.com/zegert_/">Instagram</a>
-
     </p>
 </body>
-
 </html>
