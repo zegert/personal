@@ -82,10 +82,10 @@
         According to <span class="pink">me</span>:
     </h4>
     <p>
-        Junior webdeveloper, who loves making functional things and work with people. Currently working at <a
+        Medior webdeveloper, who loves making functional things and work with people. Currently working at <a
             href="https://educto.nl">Educto</a>. Writing code with CakePHP. Always learning new stuff. <br><br>
 
-        Busy riding my motorcycle, a Honda NC700s, and a lifeguard at the <a href="https://www.rbdordrecht.nl">Dordtse
+        Busy riding my motorcycle, a <a href='/honda_nc_700_s.jpg' target='_blank'>Honda NC700s</a>, and a lifeguard at the <a href="https://www.rbdordrecht.nl">Dordtse
             Reddingsbrigade</a>.
     </p>
     <h4>Connect?</h4>
