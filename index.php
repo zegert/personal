@@ -85,8 +85,8 @@
          Webdeveloper, who loves making functional things and work with people. Currently working at <a
             href="https://nostradamus.nu/">Nostradamus ICT</a>. Writing code with Laravel. Always learning new stuff. <br><br>
 
-        Busy riding my motorcycle, a <a href='/honda_nc_700_s.jpg' target='_blank'>Honda NC700s</a>, and a lifeguard at the <a href="https://www.rbdordrecht.nl">Dordtse
-            Reddingsbrigade</a>.
+        Busy riding my motorcycle, a <a href='/honda_vfr_1200_f.jpeg' target='_blank'>Honda VFR1200F</a>, and a lifeguard at the <a href="https://www.knrm.nl/reddingstations/dordrecht">
+            KNRM</a>.
     </p>
     <h4>Connect?</h4>
     <p>
