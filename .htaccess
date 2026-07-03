@@ -1,0 +1,31 @@
+# Cache static assets (LiteSpeed/Apache honor this)
+<IfModule mod_expires.c>
+    ExpiresActive On
+
+    # Long-lived immutable assets (rename file to bust cache)
+    ExpiresByType image/x-icon        "access plus 1 year"
+    ExpiresByType image/jpeg          "access plus 1 year"
+    ExpiresByType image/png           "access plus 1 year"
+    ExpiresByType image/svg+xml       "access plus 1 year"
+    ExpiresByType font/woff2          "access plus 1 year"
+    ExpiresByType font/woff           "access plus 1 year"
+    ExpiresByType font/ttf            "access plus 1 year"
+    ExpiresByType application/font-woff "access plus 1 year"
+
+    # Scripts / styles — shorter, they change more often
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType text/css               "access plus 1 month"
+</IfModule>
+
+<IfModule mod_headers.c>
+    <FilesMatch "\.(ico|jpe?g|png|svg|woff2?|ttf)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+    <FilesMatch "\.js$">
+        Header set Cache-Control "public, max-age=2592000"
+    </FilesMatch>
+    # Never cache the HTML/PHP output
+    <FilesMatch "\.php$">
+        Header set Cache-Control "no-cache"
+    </FilesMatch>
+</IfModule>
